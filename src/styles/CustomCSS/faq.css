@@ -1,0 +1,26 @@
+@media (min-width: 1200px) {
+/* Absolute positioning of each FAQ item */
+.faq-item-1 {
+    transform: translateX(-15%);
+}
+
+.faq-item-2 {
+    transform: translateX(15%);
+}
+
+.faq-item-3 {
+    transform: translateX(-25%);
+}
+.faq-item-4 {
+    transform: translateX(25%);
+}
+
+.faq-item-5 {
+    transform: translateX(-15%);
+}
+
+.faq-item-6 {
+    transform: translateX(15%);
+}
+}
+
