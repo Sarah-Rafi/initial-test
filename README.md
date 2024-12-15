@@ -7,9 +7,22 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Installation
+To install the project dependencies, run the following command:
+```bash
+npm install
+```
+
+## Running the Project
+To start the project, use the following command:
+```bash
+npm run dev
+```
+This will start the development server, and you can view the project in your browser.
+
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
 - Configure the top-level `parserOptions` property like this:
 
@@ -25,7 +38,7 @@ export default tseslint.config({
 })
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+- Replace `tseslint.configs.recommended` with `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
 - Optionally add `...tseslint.configs.stylisticTypeChecked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
@@ -48,3 +61,6 @@ export default tseslint.config({
   },
 })
 ```
+
+This configuration enables type-aware linting and enhances the development experience by catching more issues during development.
+
